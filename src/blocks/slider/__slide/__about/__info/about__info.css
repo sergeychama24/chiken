@@ -1,2 +1,5 @@
 @import url('about__info-list.css');
 
+.about__info {
+    margin-block-start: 8px;
+}

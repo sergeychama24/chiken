@@ -1,0 +1,10 @@
+@import url('./slider__pagination-item.css');
+@import url('./slider__pagination-item-is-active.css');
+
+.slider__pagination {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 16px;
+}

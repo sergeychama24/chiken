@@ -1,4 +1,5 @@
 @import url('__slide/slider__slide.css');
+@import url('__pagination/slider__pagination.css');
 
 .slider {
     position: relative;

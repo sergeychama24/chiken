@@ -1,0 +1,3 @@
+.slider__pagination-item-is-active {
+    background-color: var(--accent-color);
+}

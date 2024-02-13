@@ -2,6 +2,7 @@
 @import url('./section_half-size.css');
 
 .section {
+    margin: auto;
     padding-block-start: 32px;
     display: flex;
     flex-direction: column;

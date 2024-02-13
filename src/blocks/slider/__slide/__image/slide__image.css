@@ -1,4 +1,6 @@
 .slide__image {
+    position: absolute;
+    z-index: -1;
     object-position: top;
     object-fit: cover;
     width: 100%;

@@ -1,0 +1,15 @@
+@import url('./__title/about__title.css');
+@import url('./__description/about__description.css');
+@import url('./__info/about__info.css');
+
+.slide__about {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px;
+    background: rgba(0,0,0,0.3);
+    color: var(--black-5);
+}

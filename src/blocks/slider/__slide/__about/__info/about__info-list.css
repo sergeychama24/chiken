@@ -1,0 +1,8 @@
+@import url('./about__info-list__item.css');
+
+.about__info-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+}

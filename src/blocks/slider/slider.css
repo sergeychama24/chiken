@@ -1,9 +1,4 @@
-@import url('./slide.css');
-@import url('./slide__overlay.css');
-@import url('__image/slide__image.css');
-@import url('./__title/slider__title.css');
-@import url('./__description/slider__description.css');
-@import url('./__info/slider__info.css');
+@import url('__slide/slider__slide.css');
 
 .slider {
     position: relative;

@@ -1,3 +1,4 @@
-.slider__title {
-    z-index: 3;
+.about__title {
+    font-size: var(--h1);
+    font-weight: var(--h-weight);
 }

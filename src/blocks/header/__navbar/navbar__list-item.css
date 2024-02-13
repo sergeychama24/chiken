@@ -1,0 +1,10 @@
+.navbar__list-item{
+    font-size: var(--h6);
+    font-weight: var(--h-weight);
+    color: var(--black-5);
+    text-decoration: none;
+}
+
+.navbar__list-item:hover {
+    color: var(--accent-color);
+}

@@ -11,19 +11,38 @@
     <header class="header">
         <div class="header__content page__content">
             <div class="header__logo">
-                <img src="<%=require('./images/logo.png')%>" alt="Логотип приложения">
+                <a href="/"><img src="<%=require('./images/logo.png')%>" alt="Логотип приложения"></a>
             </div>
-            <nav class="header__nav">
-                <ul class="nav__list">
-                    <a href="#">
+            <nav class="header__navbar">
+                <ul class="navbar__list">
+                    <a id="AnimePage" class="navbar__list-item list-item_is-active" href="#">
                     <li>Аниме</li>
                     </a>
-                    <a href="#">
+                    <a id="MangaPage" class="navbar__list-item" href="#">
                     <li>Манга</li>
-                </a><a href="#">
+                </a><a id="CommunityPage" class="navbar__list-item" href="#">
                     <li>Сообщество</li>
                 </a></ul>
             </nav>
+        </div>
+        <div class="header__pagination header__content page__content">
+            <ul class="pagination__list">
+                <a href="">
+                    <li>Новинки</li>
+                </a>
+                <a href="">
+                    <li>Популярное</li>
+                </a>
+                <a href="">
+                    <li>Топ-100</li>
+                </a>
+                <a href="">
+                    <li>Жанры</li>
+                </a>
+                <a href="">
+                    <li>Полнометражное</li>
+                </a>
+            </ul>
         </div>
     </header>
     <main class="content">

@@ -1,0 +1,6 @@
+@import url('navbar__list.css');
+@import url('navbar__list-item.css');
+
+.header__navbar{
+    margin-inline-start: 32px;
+}

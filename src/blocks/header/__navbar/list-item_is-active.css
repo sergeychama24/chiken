@@ -1,0 +1,3 @@
+.list-item_is-active {
+    color: var(--accent-color);
+}

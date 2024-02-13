@@ -2,4 +2,5 @@
     max-inline-size: 1440px;
     margin: auto;
     display: flex;
+    align-items: center;
 }

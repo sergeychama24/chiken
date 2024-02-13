@@ -1,2 +1,2 @@
-import './index.css';
+import './pages/index.css';
 console.log('Hello Chiken');

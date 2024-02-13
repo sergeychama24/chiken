@@ -2,5 +2,5 @@
 @import url('./__list/pagination__list-item.css');
 
 .pagination {
-    background-color: var(--accent-color);
+    background-color: var(--primary-color);
 }

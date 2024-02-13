@@ -1,0 +1,6 @@
+.slide__image {
+    object-position: top;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

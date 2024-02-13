@@ -1,0 +1,9 @@
+@import url(pagination__list-item.css);
+
+.pagination__list {
+    max-inline-size: 1440px;
+    margin: auto;
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}

@@ -3,4 +3,6 @@
 @import '../vendor/variables.css';
 @import '../blocks/page/page.css';
 @import '../blocks/header/header.css';
+@import '../blocks/pagination/pagination.css';
+@import '../blocks/section/section.css';
 

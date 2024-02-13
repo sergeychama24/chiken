@@ -1,0 +1,9 @@
+@import url('__title/section__title.css');
+@import url('./section_half-size.css');
+
+.section {
+    padding-block-start: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}

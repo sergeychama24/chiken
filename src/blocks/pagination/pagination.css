@@ -1,0 +1,6 @@
+@import url('./__list/pagination__list.css');
+@import url('./__list/pagination__list-item.css');
+
+.pagination {
+    background-color: var(--accent-color);
+}

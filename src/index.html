@@ -9,7 +9,7 @@
 </head>
 <body class="page">
     <header class="header">
-        <div class="header__content page__content">
+        <div class="header__content page__section">
             <div class="header__logo">
                 <a href="/"><img src="<%=require('./images/logo.png')%>" alt="Логотип приложения"></a>
             </div>
@@ -25,27 +25,33 @@
                 </a></ul>
             </nav>
         </div>
-        <div class="header__pagination header__content page__content">
-            <ul class="pagination__list">
-                <a href="">
+    </header>
+    <main class="content">
+        <section class="pagination">
+            <ul class="pagination__list page__section">
+                <a  class="pagination__list-item" href="">
                     <li>Новинки</li>
                 </a>
-                <a href="">
+                <a class="pagination__list-item" href="">
                     <li>Популярное</li>
                 </a>
-                <a href="">
+                <a class="pagination__list-item" href="">
                     <li>Топ-100</li>
                 </a>
-                <a href="">
+                <a class="pagination__list-item" href="">
                     <li>Жанры</li>
                 </a>
-                <a href="">
+                <a class="pagination__list-item" href="">
                     <li>Полнометражное</li>
                 </a>
             </ul>
-        </div>
-    </header>
-    <main class="content">
+        </section>
+        <section id="AnimeBest" class="section section_half-size">
+            <h2 class="section__title">Советуем к просмотру</h2>
+            <div id="slider" class="slider">
+                <img class="slider__image" src="" alt="">
+            </div>
+        </section>
     </main>
     <footer class="footer"></footer>
 </body>

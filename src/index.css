@@ -1,8 +1,4 @@
 @import './vendor/normalize.css';
 @import './vendor/fonts.css';
+@import './vendor/variables.css';
 
-h1 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 700;
-}

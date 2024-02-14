@@ -1,0 +1,9 @@
+.card-list-item {
+    width: 180px;
+    height: 252px;
+    cursor: pointer;
+}
+
+.card-list-item:hover {
+    transform: scale(1.02);
+}

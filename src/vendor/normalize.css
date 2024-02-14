@@ -30,6 +30,10 @@ body {
     font-size: 16px;
 }
 
+ul {
+    list-style: none;
+}
+
 /**
  * Render the `main` element consistently in IE.
  */

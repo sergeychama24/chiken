@@ -2,4 +2,6 @@
     width: 61px;
     height: 87px;
     border-radius: 2px;
+    object-position: center;
+    object-fit: cover;
 }

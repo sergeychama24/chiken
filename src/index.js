@@ -11,7 +11,6 @@ setInterval(nextSlide, 4000);
 
 showSlide(currentSlide);
 updatePagination();
-changePoster();
 
 
 const dayButtons = document.querySelectorAll('.day-button');

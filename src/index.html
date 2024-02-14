@@ -48,7 +48,7 @@
     <main class="page__content">
 
         <section class="section section-slider section_half-size">
-            <h2 class="section__title">Советуем к просмотру</h2>
+            <h2 class="section__title">Рекомендуем к просмотру</h2>
             <div id="slider" class="slider">
                 <div class="slider__slide">
                     <img class="slide__image" src="<%=require('../src/images/slide/slide1.jpg')%>" alt="Евангелион">
@@ -164,7 +164,7 @@
             <h2 class="section__title">Расписание серий</h2>
             <div class="releases__day">
                 <button class="day-button">Понедельник</button>
-                <ul class="releases__list">
+                <ul id="mondayReleases" class="releases__list">
                     <li class="releases__list-item card-s">
                         <img class="card-s__poster" src="https://www.yourdecoration.com/cdn/shop/products/abystyle-abydco775-naruto-team-7-poster-38x52cm_d1967b0e-68fd-449c-83cf-6100d71c56b5.jpg?v=1697630725">
                         <div class="card-s__description">
@@ -174,36 +174,247 @@
                         </div>
                     </li>
                     <li class="releases__list-item card-s">
-                        <img class="card-s__poster" src="https://www.yourdecoration.com/cdn/shop/products/abystyle-abydco775-naruto-team-7-poster-38x52cm_d1967b0e-68fd-449c-83cf-6100d71c56b5.jpg?v=1697630725">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/52991/main-d1e1c7c50f69eee9033229dcdfda5e23.webp">
                         <div class="card-s__description">
-                            <span class="card-s__description-title">Наруто</span>
+                            <span class="card-s__description-title">Провожающая в последний путь Фрирен </span>
                             <span class="card-s__description-type">ТВ-сериал</span>
-                            <span class="card-s__description-episode">12 серия</span>
+                            <span class="card-s__description-episode">1004 серия</span>
                         </div>
                     </li>
                     <li class="releases__list-item card-s">
-                        <img class="card-s__poster" src="https://www.yourdecoration.com/cdn/shop/products/abystyle-abydco775-naruto-team-7-poster-38x52cm_d1967b0e-68fd-449c-83cf-6100d71c56b5.jpg?v=1697630725">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/384/main-1379ef075b9f24dcf3384c62373214d5.webp">
                         <div class="card-s__description">
-                            <span class="card-s__description-title">Наруто</span>
+                            <span class="card-s__description-title">Ганц</span>
                             <span class="card-s__description-type">ТВ-сериал</span>
-                            <span class="card-s__description-episode">12 серия</span>
+                            <span class="card-s__description-episode">24 серия</span>
                         </div>
                     </li>
                     <li class="releases__list-item card-s">
-                        <img class="card-s__poster" src="https://www.yourdecoration.com/cdn/shop/products/abystyle-abydco775-naruto-team-7-poster-38x52cm_d1967b0e-68fd-449c-83cf-6100d71c56b5.jpg?v=1697630725">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/38668/main-9e01e0a65cab88cd39e3f7ea8833ece4.webp">
                         <div class="card-s__description">
-                            <span class="card-s__description-title">Наруто</span>
+                            <span class="card-s__description-title">Дорохедоро</span>
                             <span class="card-s__description-type">ТВ-сериал</span>
-                            <span class="card-s__description-episode">12 серия</span>
+                            <span class="card-s__description-episode">2 серия</span>
                         </div>
                     </li>
+                    <a class="releases__list-link" href="">Смотреть всё</a>
                 </ul>
                 <button class="day-button">Вторник</button>
+                <ul id="tuesdayReleases" class="releases__list">
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://www.yourdecoration.com/cdn/shop/products/abystyle-abydco775-naruto-team-7-poster-38x52cm_d1967b0e-68fd-449c-83cf-6100d71c56b5.jpg?v=1697630725">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Наруто</span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">12 серия</span>
+                        </div>
+                    </li>
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/52991/main-d1e1c7c50f69eee9033229dcdfda5e23.webp">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Провожающая в последний путь Фрирен </span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">1004 серия</span>
+                        </div>
+                    </li>
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/384/main-1379ef075b9f24dcf3384c62373214d5.webp">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Ганц</span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">24 серия</span>
+                        </div>
+                    </li>
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/38668/main-9e01e0a65cab88cd39e3f7ea8833ece4.webp">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Дорохедоро</span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">2 серия</span>
+                        </div>
+                    </li>
+                    <a class="releases__list-link" href="">Смотреть всё</a>
+                </ul>
                 <button class="day-button">Среда</button>
+                <ul id="wednesdayReleases" class="releases__list">
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://www.yourdecoration.com/cdn/shop/products/abystyle-abydco775-naruto-team-7-poster-38x52cm_d1967b0e-68fd-449c-83cf-6100d71c56b5.jpg?v=1697630725">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Наруто</span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">12 серия</span>
+                        </div>
+                    </li>
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/52991/main-d1e1c7c50f69eee9033229dcdfda5e23.webp">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Провожающая в последний путь Фрирен </span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">1004 серия</span>
+                        </div>
+                    </li>
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/384/main-1379ef075b9f24dcf3384c62373214d5.webp">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Ганц</span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">24 серия</span>
+                        </div>
+                    </li>
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/38668/main-9e01e0a65cab88cd39e3f7ea8833ece4.webp">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Дорохедоро</span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">2 серия</span>
+                        </div>
+                    </li>
+                    <a class="releases__list-link" href="">Смотреть всё</a>
+                </ul>
                 <button class="day-button">Четверг</button>
+                <ul id="thursdayReleases" class="releases__list">
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://www.yourdecoration.com/cdn/shop/products/abystyle-abydco775-naruto-team-7-poster-38x52cm_d1967b0e-68fd-449c-83cf-6100d71c56b5.jpg?v=1697630725">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Наруто</span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">12 серия</span>
+                        </div>
+                    </li>
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/52991/main-d1e1c7c50f69eee9033229dcdfda5e23.webp">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Провожающая в последний путь Фрирен </span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">1004 серия</span>
+                        </div>
+                    </li>
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/384/main-1379ef075b9f24dcf3384c62373214d5.webp">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Ганц</span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">24 серия</span>
+                        </div>
+                    </li>
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/38668/main-9e01e0a65cab88cd39e3f7ea8833ece4.webp">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Дорохедоро</span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">2 серия</span>
+                        </div>
+                    </li>
+                    <a class="releases__list-link" href="">Смотреть всё</a>
+                </ul>
                 <button class="day-button">Пятница</button>
+                <ul id="fridayReleases" class="releases__list">
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://www.yourdecoration.com/cdn/shop/products/abystyle-abydco775-naruto-team-7-poster-38x52cm_d1967b0e-68fd-449c-83cf-6100d71c56b5.jpg?v=1697630725">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Наруто</span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">12 серия</span>
+                        </div>
+                    </li>
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/52991/main-d1e1c7c50f69eee9033229dcdfda5e23.webp">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Провожающая в последний путь Фрирен </span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">1004 серия</span>
+                        </div>
+                    </li>
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/384/main-1379ef075b9f24dcf3384c62373214d5.webp">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Ганц</span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">24 серия</span>
+                        </div>
+                    </li>
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/38668/main-9e01e0a65cab88cd39e3f7ea8833ece4.webp">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Дорохедоро</span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">2 серия</span>
+                        </div>
+                    </li>
+                    <a class="releases__list-link" href="">Смотреть всё</a>
+                </ul>
                 <button class="day-button">Суббота</button>
+                <ul id="saturdayReleases" class="releases__list">
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://www.yourdecoration.com/cdn/shop/products/abystyle-abydco775-naruto-team-7-poster-38x52cm_d1967b0e-68fd-449c-83cf-6100d71c56b5.jpg?v=1697630725">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Наруто</span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">12 серия</span>
+                        </div>
+                    </li>
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/52991/main-d1e1c7c50f69eee9033229dcdfda5e23.webp">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Провожающая в последний путь Фрирен </span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">1004 серия</span>
+                        </div>
+                    </li>
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/384/main-1379ef075b9f24dcf3384c62373214d5.webp">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Ганц</span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">24 серия</span>
+                        </div>
+                    </li>
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/38668/main-9e01e0a65cab88cd39e3f7ea8833ece4.webp">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Дорохедоро</span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">2 серия</span>
+                        </div>
+                    </li>
+                    <a class="releases__list-link" href="">Смотреть всё</a>
+                </ul>
                 <button class="day-button">Воскресенье</button>
+                <ul id="sundayReleases" class="releases__list">
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://www.yourdecoration.com/cdn/shop/products/abystyle-abydco775-naruto-team-7-poster-38x52cm_d1967b0e-68fd-449c-83cf-6100d71c56b5.jpg?v=1697630725">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Наруто</span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">12 серия</span>
+                        </div>
+                    </li>
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/52991/main-d1e1c7c50f69eee9033229dcdfda5e23.webp">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Провожающая в последний путь Фрирен </span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">1004 серия</span>
+                        </div>
+                    </li>
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/384/main-1379ef075b9f24dcf3384c62373214d5.webp">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Ганц</span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">24 серия</span>
+                        </div>
+                    </li>
+                    <li class="releases__list-item card-s">
+                        <img class="card-s__poster" src="https://desu.shikimori.me/uploads/poster/animes/38668/main-9e01e0a65cab88cd39e3f7ea8833ece4.webp">
+                        <div class="card-s__description">
+                            <span class="card-s__description-title">Дорохедоро</span>
+                            <span class="card-s__description-type">ТВ-сериал</span>
+                            <span class="card-s__description-episode">2 серия</span>
+                        </div>
+                    </li>
+                    <a class="releases__list-link" href="">Смотреть всё</a>
+                </ul>
             </div>
         </aside>
 

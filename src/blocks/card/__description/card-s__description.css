@@ -1,7 +1,8 @@
-
+@import "card-s__description-title.css";
+@import "card-s__description-type.css";
+@import "card-s__description-episode.css";
 
 .card-s__description {
     display: flex;
     flex-direction: column;
-    gap: 8px;
 }

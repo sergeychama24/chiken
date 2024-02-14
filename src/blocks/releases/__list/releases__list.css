@@ -1,1 +1,11 @@
 @import url('./releases__list-item.css');
+@import url('./releases__list-link.css');
+
+.releases__list {
+    display: none;
+
+}
+
+.releases__list.active {
+    display: block;
+}

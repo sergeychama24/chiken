@@ -4,4 +4,5 @@
 
 .section {
     margin-block-start: 32px;
+    padding-inline-start: 32px;
 }

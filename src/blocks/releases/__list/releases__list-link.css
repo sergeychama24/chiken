@@ -1,0 +1,13 @@
+.releases__list-link {
+    background-color: var(--primary-color);
+    padding-block: 8px;
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    color: var(--black-100);
+    width: 100%;
+}
+
+.releases__list-link:hover {
+    color: var(--black-5);
+}

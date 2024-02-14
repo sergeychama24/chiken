@@ -1,6 +1,6 @@
 .section__title {
     position: relative;
-    font-size: var(--h2);
+    font-size: var(--h4);
     font-weight: 600;
     margin-inline-start: 24px;
 }

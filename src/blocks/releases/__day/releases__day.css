@@ -1,0 +1,7 @@
+@import url('./day-button.css');
+
+.releases__day {
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 32px;
+}

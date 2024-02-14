@@ -1,0 +1,31 @@
+.day-button {
+    position: relative;
+    border: none;
+    background-color: var(--primary-color);
+    padding-block: 8px;
+    text-align: left;
+    padding-inline-start: 16px;
+    font-size: var(--h6);
+    font-weight: 500;
+    color: var(--black-5);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.day-button:not(:first-child) {
+    margin-block-start: 8px;
+}
+
+.day-button:hover {
+    color: var(--black-100);
+    background-color: var(--accent-color);
+}
+
+.day-button:before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 8px;
+    height: 100%;
+    background-color: var(--accent-color);
+}

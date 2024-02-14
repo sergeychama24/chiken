@@ -2,6 +2,7 @@
 @import url('./__logo/header__logo.css');
 @import url('__navbar/header__navbar.css');
 @import url('__navbar/list-item_is-active.css');
+@import url('pagination/pagination.css');
 
 .header {
     background-color: var(--black-100);

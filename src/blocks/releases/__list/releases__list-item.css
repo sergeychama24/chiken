@@ -1,0 +1,12 @@
+.releases__list-item {
+    padding-block: 16px;
+    padding-inline: 18px;
+}
+
+.releases__list-item:nth-child(even) {
+    background-color: var(--accent-color);
+}
+
+.releases__list-item:nth-child(odd) {
+    background-color: var(--primary-color);
+}

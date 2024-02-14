@@ -1,0 +1,8 @@
+@import url('./__poster/card-s__poster.css');
+@import url('./__description/card-s__description.css');
+
+.card-s {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}

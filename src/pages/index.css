@@ -3,9 +3,9 @@
 @import '../vendor/variables.css';
 @import '../blocks/page/page.css';
 @import '../blocks/header/header.css';
-@import '../blocks/pagination/pagination.css';
 @import '../blocks/section/section.css';
 @import '../blocks/slider/slider.css';
-@import '../blocks/aside/aside.css';
+@import '../blocks/releases/releases.css';
 @import '../blocks/card/card.css';
+@import '../blocks/card/card-s.css';
 @import '../blocks/footer/footer.css';

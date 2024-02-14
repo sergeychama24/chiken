@@ -1,0 +1,11 @@
+@import url('./__day/releases__day.css');
+@import url('./__list/releases__list.css');
+
+.releases {
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 32px;
+    display: flex;
+    grid-row: 1 / 3;
+    inline-size: 318px;
+}

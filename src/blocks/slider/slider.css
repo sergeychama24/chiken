@@ -5,4 +5,5 @@
     position: relative;
     block-size: 418px;
     inline-size: 1026px;
+    margin-block-start: 32px;
 }

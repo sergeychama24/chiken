@@ -1,3 +1,15 @@
 .section__title {
+    position: relative;
     font-size: var(--h2);
+    margin-inline-start: 24px;
+}
+
+.section__title:before {
+    position: absolute;
+    content: '';
+    left: -24px;
+    display: block;
+    width: 8px;
+    height: 32px;
+    background-color: var(--accent-color);
 }

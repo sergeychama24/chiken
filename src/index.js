@@ -12,3 +12,23 @@ setInterval(nextSlide, 4000);
 showSlide(currentSlide);
 updatePagination();
 changePoster();
+
+
+const dayButtons = document.querySelectorAll('.day-button');
+
+dayButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const targetId = button.dataset.target;
+
+        const targetList = document.getElementById(targetId);
+
+        const isOpen = targetList.classList.contains('active');
+
+        const allLists = document.querySelectorAll('.releases__list');
+        allLists.forEach(list => list.classList.remove('active'));
+
+        if(!isOpen){
+            targetList.classList.add('active');
+        }
+    })
+})

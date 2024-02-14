@@ -1,6 +1,6 @@
 .navbar__list-item{
     font-size: var(--h6);
-    font-weight: var(--h-weight);
+    font-weight: 500;
     color: var(--black-5);
     text-decoration: none;
 }

@@ -21,6 +21,11 @@
     background-color: var(--accent-color);
 }
 
+.day-button.active {
+    color: var(--black-100);
+    background-color: var(--accent-color);
+}
+
 .day-button:before {
     content: '';
     position: absolute;

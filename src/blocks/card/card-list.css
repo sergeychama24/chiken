@@ -2,8 +2,8 @@
 
 .card-list {
     margin-block-start: 32px;
-    display: grid;
+    display: flex;
+    justify-content: center;
     gap: 20px;
-    padding-inline: 32px;
-    grid-template-columns: repeat(5, 182px);
+    max-inline-size: 1026px;
 }

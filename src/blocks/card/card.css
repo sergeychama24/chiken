@@ -1,5 +1,6 @@
 @import url('card-list.css');
 @import url('./__poster/card__poster.css');
+@import url('./__title/card__title.css');
 
 .card {
 }

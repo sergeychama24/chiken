@@ -1,0 +1,7 @@
+.card__title {
+    padding: 8px;
+    max-inline-size: 182px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

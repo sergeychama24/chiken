@@ -6,7 +6,7 @@
     flex-direction: column;
     margin-block-start: 32px;
     display: flex;
-    grid-row: 1 / 3;
+    grid-row: 1 / 4;
     justify-self: flex-end;
     inline-size: 318px;
 }

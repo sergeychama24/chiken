@@ -7,7 +7,7 @@ export const slidesPagination = document.querySelector('.slider__pagination');
 
 //Запуск слайдера
 
-setInterval(nextSlide, 4000);
+setInterval(nextSlide, 5000);
 
 showSlide(currentSlide);
 updatePagination();

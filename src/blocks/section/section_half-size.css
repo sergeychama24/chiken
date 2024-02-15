@@ -1,3 +1,4 @@
 .section_half-size {
     inline-size: 1026px;
+    grid-column: 2 / 3;
 }

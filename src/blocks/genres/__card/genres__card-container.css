@@ -1,0 +1,7 @@
+.genres__card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1366px;
+    height: 400px;
+}

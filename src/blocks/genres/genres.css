@@ -1,0 +1,10 @@
+@import url('__card/genres__card-container.css');
+@import url('__card/genres__card.css');
+
+.genres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: var(--black-100)/* Цвет фона для наглядности */
+}

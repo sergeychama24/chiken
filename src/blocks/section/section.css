@@ -1,8 +1,8 @@
 @import url('__title/section__title.css');
 @import url('./section_half-size.css');
+@import url('./section_full-size.css');
 @import url('./section-slider.css');
 
 .section {
     margin-block-start: 32px;
-    margin-inline-start: 32px;
 }

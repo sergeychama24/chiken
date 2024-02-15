@@ -81,7 +81,6 @@ const finishedAnime = async () => {
         const cardTitle = card.querySelector('.card__title');
         cardTitle.textContent = animeData[j].title;
     }
-    console.log(animeData);
 }
 
 

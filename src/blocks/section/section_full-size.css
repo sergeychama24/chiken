@@ -1,0 +1,4 @@
+.section_full-size {
+    grid-column: 1 / 5;
+    width: 100%;
+}

@@ -2,13 +2,13 @@
     position: relative;
     font-size: var(--h4);
     font-weight: 600;
-    margin-inline-start: 24px;
+    margin-inline-start: 16px;
 }
 
 .section__title:before {
     position: absolute;
     content: '';
-    left: -24px;
+    left: -16px;
     display: block;
     width: 8px;
     height: 100%;

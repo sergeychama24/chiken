@@ -184,9 +184,10 @@
                 </li>
             </ul>
         </section>
-        <aside class="releases">
-            <h2 class="section__title">Расписание серий</h2>
-            <div class="releases__day">
+        <aside class="widgets">
+            <div class="releases">
+                <h2 class="section__title">Расписание серий</h2>
+                <div class="releases__day">
                 <button class="day-button" data-target="mondayReleases">Понедельник</button>
                 <ul id="mondayReleases" class="releases__list">
                     <li class="releases__list-item card-s">
@@ -439,6 +440,29 @@
                     </li>
                     <a class="releases__list-link" href="">Смотреть всё</a>
                 </ul>
+            </div>
+            </div>
+            <div class="search-form releases">
+                <h2 class="section__title">Быстрый фильтр</h2>
+                <form class="search-form__form">
+                    <div class="search-form__group">
+                        <label class="search-form__label">Genre:</label>
+                        <div class="search-form__checkboxes">
+                            <label><input type="checkbox" name="genre" value="action"> Action</label>
+                            <label><input type="checkbox" name="genre" value="comedy"> Comedy</label>
+                            <label><input type="checkbox" name="genre" value="drama"> Drama</label>
+                        </div>
+                        <div class="search-form__group">
+                            <label class="search-form__label">Year:</label>
+                            <div class="search-form__checkboxes">
+                                <label><input type="checkbox" name="year" value="2022"> 2022</label>
+                                <label><input type="checkbox" name="year" value="2021"> 2021</label>
+                                <label><input type="checkbox" name="year" value="2020"> 2020</label>
+                                <!-- Другие варианты годов -->
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </aside>
 

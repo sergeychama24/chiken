@@ -5,6 +5,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
     background-color: var(--black-100)/* Цвет фона для наглядности */
 }

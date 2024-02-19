@@ -1,4 +1,6 @@
 @import url('./__content/header__content.css');
+@import url('./__left-side/header__left-side.css');
+@import url('./__right-side/header__right-side.css');
 @import url('./__logo/header__logo.css');
 @import url('__navbar/header__navbar.css');
 @import url('__navbar/list-item_is-active.css');

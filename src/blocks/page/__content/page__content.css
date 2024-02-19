@@ -1,7 +1,6 @@
 .page__content {
-    /*inline-size: 1440px;*/
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1026px 340px 1fr;
+    grid-template-columns: 1fr 1100px 340px 1fr;
     grid-template-rows: auto auto;
 }

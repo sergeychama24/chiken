@@ -10,23 +10,26 @@
 <body class="page">
     <header class="header">
         <div class="header__content page__section">
-            <div class="header__logo">
-                <a href="/"><img src="<%=require('./images/logo.png')%>" alt="Логотип приложения"></a>
+            <div class="header__left-side">
+                <div class="header__logo">
+                    <a href="/"><img src="<%=require('./images/logo.png')%>" alt="Логотип приложения"></a>
+                </div>
+                <nav class="header__navbar">
+                    <ul class="navbar__list">
+                        <a id="AnimePage" class="navbar__list-item list-item_is-active" href="#">
+                            <li>Аниме</li>
+                        </a>
+                        <a id="MangaPage" class="navbar__list-item" href="#">
+                            <li>Манга</li>
+                        </a><a id="CommunityPage" class="navbar__list-item" href="#">
+                        <li>Сообщество</li>
+                    </a></ul>
+                </nav>
             </div>
-            <nav class="header__navbar">
-                <ul class="navbar__list">
-                    <a id="AnimePage" class="navbar__list-item list-item_is-active" href="#">
-                    <li>Аниме</li>
-                    </a>
-                    <a id="MangaPage" class="navbar__list-item" href="#">
-                    <li>Манга</li>
-                </a><a id="CommunityPage" class="navbar__list-item" href="#">
-                    <li>Сообщество</li>
-                </a></ul>
-            </nav>
+            <div class="header__right-side"></div>
         </div>
         <section class="pagination">
-            <ul class="pagination__list page__section">
+            <ul class="pagination__list">
                 <a  class="pagination__list-item" href="">
                     <li>Новинки</li>
                 </a>
@@ -46,7 +49,6 @@
         </section>
     </header>
     <main class="page__content">
-
         <section class="section section-slider section_half-size">
             <h2 class="section__title">Рекомендуем к просмотру</h2>
             <div id="slider" class="slider">
@@ -456,26 +458,26 @@
                 </ul>
             </div>
             </div>
-<!--            <div class="search-form releases">-->
-<!--                <h2 class="section__title">Быстрый фильтр</h2>-->
-<!--                <form class="search-form__form">-->
-<!--                    <div class="search-form__group">-->
-<!--                        <label class="search-form__label">Genre:</label>-->
-<!--                        <div class="search-form__checkboxes">-->
-<!--                            <label><input type="checkbox" name="genre" value="action"> Action</label>-->
-<!--                        </div>-->
-<!--                        <div class="search-form__group">-->
-<!--                            <label class="search-form__label">Year:</label>-->
-<!--                            <div class="search-form__checkboxes">-->
-<!--                                <label><input type="checkbox" name="year" value="2022"> 2022</label>-->
-<!--                                <label><input type="checkbox" name="year" value="2021"> 2021</label>-->
-<!--                                <label><input type="checkbox" name="year" value="2020"> 2020</label>-->
-<!--                                &lt;!&ndash; Другие варианты годов &ndash;&gt;-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </form>-->
-<!--            </div>-->
+            <div class="search-form releases">
+                <h2 class="section__title">Быстрый фильтр</h2>
+                <form class="search-form__form">
+                    <div class="search-form__group">
+                        <label class="search-form__label">Genre:</label>
+                        <div class="search-form__checkboxes">
+                            <label><input type="checkbox" name="genre" value="action"> Action</label>
+                        </div>
+                        <div class="search-form__group">
+                            <label class="search-form__label">Year:</label>
+                            <div class="search-form__checkboxes">
+                                <label><input type="checkbox" name="year" value="2022"> 2022</label>
+                                <label><input type="checkbox" name="year" value="2021"> 2021</label>
+                                <label><input type="checkbox" name="year" value="2020"> 2020</label>
+                                <!-- Другие варианты годов -->
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </aside>
 
     </main>

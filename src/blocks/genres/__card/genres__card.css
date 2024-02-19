@@ -1,6 +1,10 @@
 .genres__card {
-    width: 182px;
-    height: 253px;
+    width: 180px;
+    height: 252px;
+    background-color: var(--primary-color);
+}
+
+.genres__card {
     background-color: var(--primary-color);
     background-image: url("../../../images/genre/isekai.png");
     background-repeat: no-repeat;

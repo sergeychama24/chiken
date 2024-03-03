@@ -3,4 +3,5 @@
     grid-row: 1 / 4;
     justify-self: flex-end;
     inline-size: 318px;
+    padding-inline-end: 32px;
 }

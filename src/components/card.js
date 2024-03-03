@@ -4,28 +4,37 @@ const getData = async (url) => {
     return json;
 };
 
-const fetchWinterAnime = async () => {
-    const url = "https://api.jikan.moe/v4/seasons/now";
+const fetchSeasonAnimeData = async () => {
+    const url = "https://shikimori.one/api/animes";
+    const params = new URLSearchParams({
+        order: "ranked",
+        kind: "tv",
+        status: "ongoing",
+        limit: 5,
+        season: "winter_2024",
+    });
+
     try {
-        const data = await getData(url);
-        return data.data
+        const data = await getData(`${url}?${params}`);
+        return data;
     } catch (error) {
         console.log(error);
     }
-};
+}
 
-const winterAnime = async () => {
-    const animeData = await fetchWinterAnime();
+
+const seasonAnime = async () => {
+    const animeData = await fetchSeasonAnimeData();
     const cards = document.querySelectorAll('.season');
     for (let i = 0; i < 5; i++) {
         const card = cards[i];
         const cardPoster = card.querySelector('.card__poster');
-        cardPoster.src = animeData[i].images.jpg.image_url;
+        cardPoster.src = `https://shikimori.one${animeData[i].image.original}`;
     }
     for (let j = 0; j < 5; j++) {
         const card = cards[j];
         const cardTitle = card.querySelector('.card__title');
-        cardTitle.textContent = animeData[j].title;
+        cardTitle.textContent = animeData[j].russian;
     }
 }
 
@@ -84,7 +93,7 @@ const finishedAnime = async () => {
 }
 
 
-winterAnime();
+seasonAnime();
 finishedAnime();
 
 

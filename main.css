@@ -37,7 +37,7 @@
 .slider__pagination{display:flex;inset:0;justify-content:flex-end;margin:16px;position:absolute}
 .slider{block-size:418px;inline-size:1026px;margin-block-start:32px;position:relative}
 .genres__card-container{align-items:center;display:flex;height:400px;justify-content:space-evenly;width:1366px}
-.genres__card{background-color:var(--primary-color);background-image:url(3c53bfc3511561fd0021.png);background-position:50%;background-repeat:no-repeat;background-size:cover;height:252px;width:180px}.genres__card:hover{background-color:var(--accent-color);cursor:pointer;transform:scale(1.05)}
+.genres__card{background-color:var(--primary-color);background-image:url(a31fd624192aff8d69e3.png);background-position:bottom;background-repeat:no-repeat;border-radius:6px;height:252px;width:180px}.genres__card:hover{background-color:var(--accent-color);cursor:pointer;transform:scale(1.05)}
 .genres{align-items:center;background-color:var(--black-100);display:flex;justify-content:center}
 .widgets{grid-column:3/4;grid-row:1/4;inline-size:318px;justify-self:flex-end;padding-inline-end:32px}
 .day-button{background-color:var(--primary-color);border:none;color:var(--black-5);cursor:pointer;font-size:var(--h6);font-weight:500;padding-block:8px;padding-inline-start:16px;position:relative;text-align:left;transition:background-color .2s ease}.day-button:not(:first-child){margin-block-start:8px}.day-button.active,.day-button:hover{background-color:var(--accent-color);color:var(--black-100)}.day-button:before{background-color:var(--accent-color);content:"";height:100%;inset:0;position:absolute;width:8px}
